@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
     font-family: myTZ;
     src: url('../义启童真体.ttf')
 }
@@ -119,6 +119,7 @@ body {
     height: 21px;
     padding: 0 2px;
     box-sizing: border-box;
+    text-align: center;
 }
 .my-container .my-content footer input[type='button'] {
     display: inline-block;
