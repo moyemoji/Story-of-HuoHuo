@@ -12,6 +12,9 @@ body {
     padding: 0 100px;
     background: url(../image/bg.jpg) repeat;
 }
+.my-container embed {
+    position: absolute;
+}
 .my-container header {
     width: 100%;
     height: 80px;
@@ -21,7 +24,7 @@ body {
     box-shadow: 0 0 8px #555;
     background: rgba(248, 195, 205, 0.8);
     z-index: 10000;
-    color:#555;
+    color: #555;
 }
 .my-container header h1 {
     line-height: 80px;
@@ -51,6 +54,7 @@ body {
     height: 100vh;
     width: 100px;
     opacity: 0;
+    transition: all 0.5s ease 0s;
 }
 .my-content .a2 {
     position: fixed;
@@ -59,6 +63,7 @@ body {
     height: 100vh;
     width: 100px;
     opacity: 0;
+    transition: all 0.3s ease 0s;
 }
 .my-content .a1 input,
 .my-content .a2 input {
@@ -90,10 +95,16 @@ body {
 }
 .my-container .my-content footer {
     position: absolute;
-    bottom: 30px;
+    bottom: 0;
     left: 0;
     text-align: center;
     width: 100%;
+    height: 65px;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+.my-container .my-content footer:hover {
+    opacity: 1;
 }
 .my-container .my-content footer input[type='text'] {
     width: 50px;
