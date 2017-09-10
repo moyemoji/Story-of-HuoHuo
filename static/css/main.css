@@ -1,4 +1,4 @@
-﻿@font-face {
+@font-face {
     font-family: myTZ;
     src: url('../义启童真体.ttf')
 }
@@ -34,12 +34,12 @@ body {
 .my-container header h1 {
     line-height: 80px;
     padding-left: 30px;
-    font-size: 25px;
+    font-size: 28px;
 }
 .my-container #my-title {
     margin-bottom: 25px;
     text-align: center;
-    font-size: 22px;
+    font-size: 25px;
     font-family: KaiTi;
 }
 .my-container .my-content {
@@ -97,9 +97,12 @@ body {
 .my-container #my-article p {
     margin-bottom: 20px;
     text-indent: 2em;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
-    font-family: myTZ;
+    font-family: "宋体";
+}
+.my-container #my-article p:first-letter{
+    font-size:24px;
 }
 .my-container .my-content footer {
     position: absolute;
