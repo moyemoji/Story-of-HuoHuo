@@ -1,3 +1,7 @@
+@font-face {
+    font-family: myTZ;
+    src: url('../other/义启童真体.ttf')
+}
 * {
     padding: 0;
     margin: 0;
@@ -25,6 +29,7 @@ body {
     background: rgba(248, 195, 205, 0.8);
     z-index: 10000;
     color: #555;
+    font-family: KaiTi;
 }
 .my-container header h1 {
     line-height: 80px;
@@ -35,6 +40,7 @@ body {
     margin-bottom: 25px;
     text-align: center;
     font-size: 22px;
+    font-family: KaiTi;
 }
 .my-container .my-content {
     min-height: 100vh;
@@ -46,6 +52,7 @@ body {
 .my-container .my-content #my-date {
     text-align: center;
     margin-bottom: 20px;
+    font-family: Romantic;
 }
 .my-content .a1 {
     position: fixed;
@@ -90,8 +97,9 @@ body {
 .my-container #my-article p {
     margin-bottom: 20px;
     text-indent: 2em;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 30px;
+    font-family: myTZ;
 }
 .my-container .my-content footer {
     position: absolute;
